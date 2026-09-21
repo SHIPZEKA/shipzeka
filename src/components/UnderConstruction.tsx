@@ -44,8 +44,8 @@ function ContactIcon({ name }: { name: 'email' | 'handshake' }) {
 
 export default function UnderConstruction() {
   return (
-    <div className="relative flex min-h-dvh flex-col bg-[#08243A] text-white">
-      <header className="relative z-20 shrink-0 px-[clamp(1.25rem,3.2vw,2rem)] pt-[clamp(1.15rem,2.4vw,1.75rem)]">
+    <div className="relative flex h-dvh flex-col overflow-hidden bg-[#08243A] text-white md:h-auto md:min-h-dvh md:overflow-visible">
+      <header className="relative z-20 shrink-0 px-[clamp(1.25rem,3.2vw,2rem)] pt-[clamp(0.75rem,2.4vw,1.75rem)]">
         <img
           src="/images/Logo.png"
           alt="Shipzeka — Aadyantam Ekagatih"
@@ -53,11 +53,11 @@ export default function UnderConstruction() {
         />
       </header>
 
-      <section className="relative z-20 mt-[clamp(1.25rem,5.2vh,3.5rem)] flex shrink-0 flex-col items-center px-4 text-center">
-        <h1 className="font-sans text-[clamp(2.25rem,6.3vw,6.8125rem)] font-bold leading-none tracking-[-0.025em]">
+      <section className="relative z-20 mt-[clamp(0.75rem,4vh,3.5rem)] flex shrink-0 flex-col items-center px-4 text-center">
+        <h1 className="font-sans text-[clamp(1.85rem,6.3vw,6.8125rem)] font-bold leading-none tracking-[-0.025em]">
           Under Construction
         </h1>
-        <p className="mt-[clamp(0.7rem,3.5vh,2.15rem)] font-sans text-[clamp(1.25rem,2.9vw,3.125rem)] font-semibold leading-none tracking-[-0.02em]">
+        <p className="mt-[clamp(0.45rem,2.5vh,2.15rem)] font-sans text-[clamp(1.05rem,2.9vw,3.125rem)] font-semibold leading-none tracking-[-0.02em]">
           The Wait Will Be{' '}
           <span className="font-serif text-[1.05em] font-medium italic text-[#90bb2d]">
             Worth It
@@ -65,16 +65,16 @@ export default function UnderConstruction() {
         </p>
       </section>
 
-      <div className="relative z-20 mt-[clamp(1.35rem,7vh,4.4rem)] shrink-0">
-        <div className="flex w-full items-center gap-4 sm:gap-6">
+      <div className="relative z-20 mt-[clamp(0.85rem,4.5vh,4.4rem)] shrink-0">
+        <div className="flex w-full items-center gap-3 px-1 sm:gap-6">
           <div className="h-px min-w-0 flex-1 bg-[#e0e3e6]/80" />
-          <p className="shrink-0 font-ui text-[clamp(0.58rem,0.95vw,0.75rem)] font-normal uppercase tracking-[0.22em] text-white">
+          <p className="max-w-[70%] shrink-0 text-center font-ui text-[clamp(0.52rem,0.95vw,0.75rem)] font-normal uppercase tracking-[0.16em] text-white sm:max-w-none sm:tracking-[0.22em]">
             Until then, feel free to reach out to us
           </p>
           <div className="h-px min-w-0 flex-1 bg-[#e0e3e6]/80" />
         </div>
 
-        <div className="mt-[clamp(0.7rem,1.6vh,1.15rem)] mb-4 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-14">
+        <div className="mt-[clamp(0.5rem,1.6vh,1.15rem)] mb-2 flex flex-col items-center justify-center gap-2 sm:mb-4 sm:flex-row sm:gap-14">
           {CONTACTS.map(({ email, icon }) => (
             <a
               key={email}
@@ -88,14 +88,14 @@ export default function UnderConstruction() {
         </div>
       </div>
 
-      <div className="relative w-full overflow-visible aspect-[1440/896]">
+      <div className="relative mt-auto min-h-0 w-full flex-1 overflow-hidden md:flex-none md:overflow-visible md:aspect-[1440/896]">
         <p
           aria-hidden
-          className="pointer-events-none absolute inset-x-0 top-[12%] z-0 text-center font-sans text-[clamp(4rem,18.5vw,16.5rem)] font-extrabold leading-none tracking-[-0.04em] text-[#173539] select-none"
+          className="pointer-events-none absolute inset-x-0 top-[10%] z-0 text-center font-sans text-[clamp(3.25rem,18.5vw,16.5rem)] font-extrabold leading-none tracking-[-0.04em] text-[#173539] select-none"
         >
           Shipzeka
         </p>
-        <div className="relative z-10 w-full">
+        <div className="absolute inset-0 z-10">
           <HeroAnimation />
         </div>
         <footer className="pointer-events-none absolute inset-x-0 bottom-0 z-20 flex items-end justify-between gap-4 px-[clamp(1.25rem,3.2vw,2rem)] pb-[clamp(0.7rem,1.6vw,1.15rem)] font-mono text-[clamp(0.65rem,0.85vw,0.8rem)] font-normal text-white">

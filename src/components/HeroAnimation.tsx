@@ -7,7 +7,6 @@ type LottiePlayer = ComponentType<{
   className?: string
   rendererSettings?: {
     preserveAspectRatio?: string
-    viewBoxOnly?: boolean
   }
 }>
 
@@ -42,10 +41,9 @@ export function HeroAnimation() {
       src={animationData}
       loop={true}
       autoplay={true}
-      className="block h-auto w-full"
+      className="block h-full w-full"
       rendererSettings={{
-        preserveAspectRatio: 'xMidYMid meet',
-        viewBoxOnly: true,
+        preserveAspectRatio: 'xMidYMax meet',
       }}
     />
   )
