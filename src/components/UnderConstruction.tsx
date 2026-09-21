@@ -45,7 +45,7 @@ function ContactIcon({ name }: { name: 'email' | 'handshake' }) {
 export default function UnderConstruction() {
   return (
     <div className="relative flex h-dvh flex-col overflow-hidden bg-[#08243A] text-white md:h-auto md:min-h-dvh md:overflow-visible">
-      <header className="relative z-20 shrink-0 px-[clamp(1.25rem,3.2vw,2rem)] pt-[clamp(0.75rem,2.4vw,1.75rem)]">
+      <header className="relative z-20 shrink-0 px-[clamp(1.25rem,3.2vw,2rem)] pt-[clamp(1.25rem,3.2vw,2rem)]">
         <img
           src="/images/Logo.png"
           alt="Shipzeka — Aadyantam Ekagatih"
@@ -89,12 +89,12 @@ export default function UnderConstruction() {
       </div>
 
       <div className="relative mt-auto min-h-0 w-full flex-1 overflow-visible md:flex-none md:aspect-[1440/896]">
-        <p
+        <img
+          src="/images/shipzeka-wordmark.png"
+          alt=""
           aria-hidden
-          className="pointer-events-none absolute inset-x-0 top-[10%] z-0 text-center font-sans text-[clamp(3.25rem,18.5vw,16.5rem)] font-extrabold leading-none tracking-[-0.04em] text-[#173539] select-none"
-        >
-          Shipzeka
-        </p>
+          className="pointer-events-none absolute inset-x-0 top-[10%] z-0 mx-auto h-[clamp(3.25rem,18.5vw,16.5rem)] w-auto max-w-full select-none"
+        />
         <div className="absolute inset-0 z-10">
           <HeroAnimation />
         </div>
