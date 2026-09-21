@@ -59,7 +59,7 @@ export default function UnderConstruction() {
         </h1>
         <p className="mt-[clamp(0.7rem,2.8vh,2.15rem)] font-sans text-[clamp(1.3rem,3.5vw,3.125rem)] font-semibold leading-none tracking-[-0.02em]">
           The Wait Will Be{' '}
-          <span className="font-serif text-[1.05em] font-medium italic text-[#90bb2d]">
+          <span className="font-sans text-[1.05em] font-medium italic text-[#90bb2d]">
             Worth It
           </span>
         </p>
