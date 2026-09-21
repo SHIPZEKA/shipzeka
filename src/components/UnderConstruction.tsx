@@ -53,11 +53,11 @@ export default function UnderConstruction() {
         />
       </header>
 
-      <section className="relative z-20 mt-[clamp(0.75rem,4vh,3.5rem)] flex shrink-0 flex-col items-center px-4 text-center">
-        <h1 className="font-sans text-[clamp(1.85rem,6.3vw,6.8125rem)] font-bold leading-none tracking-[-0.025em]">
+      <section className="relative z-20 mt-[clamp(1.15rem,4.5vh,3.5rem)] mb-1 flex shrink-0 flex-col items-center px-4 py-3 text-center md:mb-0 md:py-0">
+        <h1 className="font-sans text-[clamp(2.35rem,7.4vw,6.8125rem)] font-bold leading-none tracking-[-0.025em]">
           Under Construction
         </h1>
-        <p className="mt-[clamp(0.45rem,2.5vh,2.15rem)] font-sans text-[clamp(1.05rem,2.9vw,3.125rem)] font-semibold leading-none tracking-[-0.02em]">
+        <p className="mt-[clamp(0.7rem,2.8vh,2.15rem)] font-sans text-[clamp(1.3rem,3.5vw,3.125rem)] font-semibold leading-none tracking-[-0.02em]">
           The Wait Will Be{' '}
           <span className="font-serif text-[1.05em] font-medium italic text-[#90bb2d]">
             Worth It
@@ -65,7 +65,7 @@ export default function UnderConstruction() {
         </p>
       </section>
 
-      <div className="relative z-20 mt-[clamp(0.85rem,4.5vh,4.4rem)] shrink-0">
+      <div className="relative z-20 mt-[clamp(1.15rem,5vh,4.4rem)] shrink-0">
         <div className="flex w-full items-center gap-3 px-1 sm:gap-6">
           <div className="h-px min-w-0 flex-1 bg-[#e0e3e6]/80" />
           <p className="max-w-[70%] shrink-0 text-center font-ui text-[clamp(0.52rem,0.95vw,0.75rem)] font-normal uppercase tracking-[0.16em] text-white sm:max-w-none sm:tracking-[0.22em]">
