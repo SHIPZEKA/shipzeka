@@ -37,14 +37,16 @@ export function HeroAnimation() {
   if (!Lottie || !animationData) return null
 
   return (
-    <Lottie
-      src={animationData}
-      loop={true}
-      autoplay={true}
-      className="block h-full w-full"
-      rendererSettings={{
-        preserveAspectRatio: 'xMidYMax meet',
-      }}
-    />
+    <div className="flex h-full w-full items-end justify-center">
+      <Lottie
+        src={animationData}
+        loop={true}
+        autoplay={true}
+        className="block h-auto w-full max-w-full aspect-[1440/896]"
+        rendererSettings={{
+          preserveAspectRatio: 'xMidYMid meet',
+        }}
+      />
+    </div>
   )
 }

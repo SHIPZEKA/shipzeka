@@ -88,7 +88,7 @@ export default function UnderConstruction() {
         </div>
       </div>
 
-      <div className="relative mt-auto min-h-0 w-full flex-1 overflow-hidden md:flex-none md:overflow-visible md:aspect-[1440/896]">
+      <div className="relative mt-auto min-h-0 w-full flex-1 overflow-visible md:flex-none md:aspect-[1440/896]">
         <p
           aria-hidden
           className="pointer-events-none absolute inset-x-0 top-[10%] z-0 text-center font-sans text-[clamp(3.25rem,18.5vw,16.5rem)] font-extrabold leading-none tracking-[-0.04em] text-[#173539] select-none"
