@@ -88,7 +88,7 @@ export default function UnderConstruction() {
         </div>
       </div>
 
-      <div className="relative mt-auto min-h-0 w-full flex-1 overflow-visible md:flex-none md:aspect-[1440/896]">
+      <div className="relative mt-auto min-h-0 w-full flex-1 overflow-hidden md:flex-none md:aspect-[1440/896] md:overflow-visible">
         <img
           src="/images/shipzeka-wordmark.png"
           alt=""

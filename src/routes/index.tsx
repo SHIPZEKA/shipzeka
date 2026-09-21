@@ -5,7 +5,7 @@ export const Route = createFileRoute('/')({ component: App })
 
 function App() {
   return (
-    <main>
+    <main className="h-dvh min-h-dvh md:h-auto md:min-h-dvh">
       <UnderConstruction />
     </main>
   )
