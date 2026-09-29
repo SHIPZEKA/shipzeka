@@ -2,7 +2,7 @@ import { HeroAnimation } from './HeroAnimation'
 
 const CONTACTS = [
   {
-    email: 'mukeshvats90@gmail.com',
+    email: 'mukesh.sharma@shipzeka.com',
     icon: 'email' as const,
   },
   {
